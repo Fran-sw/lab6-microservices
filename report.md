@@ -5,6 +5,13 @@ In the following is shown how the diferent objectives of the 6th laboratory have
     * Web - port 3333 **gradle :web:bootRun**
     ![web log](web.png)
 
+* The service registration service has the two microservices registered (a third terminal, dashboard screenshots)
+    * registation terminal **gradle :registration:bootRun**
+    ![registation log](registation_terminal.png)
+    * DashBoard **http://localhost:1111/**
+    ![registation dashboard](registation_dashboard.png)
+
+
 ------------------------------
 para ver como y donde arranca todo -> fichero aplication 
 para arrancar -> gradle :web:bootRun    (puerto 3333)
